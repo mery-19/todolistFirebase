@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F2B880 ;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.myBody{
+    width: 40%;
+    margin-top: 5%;
+}
+@media only screen and (max-width : 600px)
+{
+    .myBody{
+        width: 70%;
+        margin-top: 5%;
+    }
+
+}
+
+.newToDo{
+    background-color: #FFF4EC;
+
+}
+
+.btn{
+    background-color: #FFF4EC;
+}
+
+.todos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.myList ul li{
+    
+    background-color: #FFF4EC;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+
+.fa{
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration:  line-through;
+}
+
+button{
+    margin-top: 2%;
+}
+
+span{
+    font-size: 11px;
+    color: #F2B880;
+}
+
+.deleteall{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+
